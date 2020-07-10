@@ -5,12 +5,12 @@ i post per:
 *sapere se ci sono emoticons;
 *effettuare analisi statistiche sulla lunghezzz dei testi.
 
-#Software utilizzati:
-[Eclipse] - ambiente di sviluppo integrato
-[Spring Boot] - framework per sviluppo applicazioni Java
-[Maven] - strumento di gestione di progetti
+##Software utilizzati:
+[Eclipse](https://www.eclipse.org/downloads/packages/release/mars/r/eclipse-ide-java-ee-developers) ambiente di sviluppo integrato
+[Spring Boot](https://spring.io/guides/gs/spring-boot/)  framework per sviluppo applicazioni Java
+[Maven](https://maven.apache.org/) strumento di gestione di progetti
 
-Autori:
+##Autori:
 Andrea Langiotti
 Di Mauro Giuseppe
 
