@@ -50,11 +50,6 @@ i post per:
 - [Utils](#utils)
 - [Tests](#tests)
 
----
-
-# Struttura package e classi
-
-
 
 ---
 
