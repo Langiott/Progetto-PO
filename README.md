@@ -1,16 +1,7 @@
 # Progetto Di Mauro Giuseppe & Langiotti Andrea
 
-![image](https://aule.univpm.it/agendastudenti/customer/logo.png)
-
-
-
-
-
-
-
-
-
-
+![image]
+(https://aule.univpm.it/agendastudenti/customer/logo.png)
 
 Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottenere dei post di Facebook dell' utente con lo scopo di analizzarli.Ci poniamo di studiare 
 i post per:
