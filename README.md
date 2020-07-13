@@ -7,9 +7,10 @@ i post per:
 
 *sapere se ci sono emoticons;
 
-*effettuare analisi statistiche sulla lunghezzz dei testi.
+*effettuare analisi statistiche sulla lunghezza dei testi.
 
-#Software utilizzati:
+# Software utilizzati
+
 [Eclipse](https://www.eclipse.org/downloads/packages/release/mars/r/eclipse-ide-java-ee-developers) ambiente di sviluppo integrato
 
 [Spring Boot](https://spring.io/guides/gs/spring-boot/)  framework per sviluppo applicazioni Java
