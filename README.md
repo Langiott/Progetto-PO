@@ -40,7 +40,7 @@ i post per:
 
 # UML 
 
-- [Struttura package e classi](#struttura-package-e-calssi)
+- [Struttura package e classi](#struttura-package-e-classi)
 - [Application](#application)
 - [Controller](#controller)
 - [Exception](#exception)
@@ -48,6 +48,7 @@ i post per:
 - [Repository](#repository)
 - [Service](#service)
 - [Utils](#utils)
+- [Tests](#tests)
 
 ---
 
@@ -58,6 +59,8 @@ i post per:
 ---
 
 ## Application 
+
+![APPLICATION](https://user-images.githubusercontent.com/66262425/87336024-8994d500-c541-11ea-9f45-ed7c7eb03ca4.JPG)
 
 ---
 
@@ -85,3 +88,6 @@ i post per:
 
 ---
 
+## Tests
+
+---
