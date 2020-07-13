@@ -31,7 +31,6 @@ i post per:
 
 [StarUml](http://staruml.io/)- strumento per la creazione di diagrammi 
 
-> Questi Software hanno fatto si da rializzare un progetto dalla fase iniziale alla finale 
 
 # Diagrammi Casi d'Uso
 
@@ -50,6 +49,8 @@ i post per:
 - [Service](#service)
 - [Utils](#utils)
 - [Tests](#tests)
+
+>Le immagini sono state realizzate con StarUml e sono state modificate e salvate con modello jpeg 
 
 ---
 
