@@ -50,38 +50,55 @@ i post per:
 - [Utils](#utils)
 - [Tests](#tests)
 
+---
+
+## Struttura package e classi
+
+![Struttura package e classi](https://user-images.githubusercontent.com/66262425/87336182-bcd76400-c541-11ea-9589-eb0d19373cb2.JPG)
 
 ---
 
-## Application 
+### Application 
 
 ![Application](https://user-images.githubusercontent.com/66262425/87335561-ce6c3c00-c540-11ea-9769-7dc5f6993ca5.JPG)
----
-
-## Controller
 
 ---
 
-## Exception
+### Controller
+
+![Controller](https://user-images.githubusercontent.com/66262425/87336171-b8ab4680-c541-11ea-99fd-2841b287127d.JPG)
+---
+
+### Exception
+
+![Exception]()
+---
+
+### Model
+
+![Model](https://user-images.githubusercontent.com/66262425/87336182-bcd76400-c541-11ea-9589-eb0d19373cb2.JPG)
+---
+
+### Repository
+
+![Repository](https://user-images.githubusercontent.com/66262425/87336195-c06aeb00-c541-11ea-9b6d-5e7b00c80f97.JPG)
+---
+
+### Service
+
+![Service](https://user-images.githubusercontent.com/66262425/87336201-c4970880-c541-11ea-8b21-6b110ac3b292.JPG)
+
 
 ---
 
-## Model
+### Utils
+
+![Utils](https://user-images.githubusercontent.com/66262425/87335561-ce6c3c00-c540-11ea-9769-7dc5f6993ca5.JPG)
 
 ---
 
-## Repository
+### Tests
 
----
-
-## Service
-
----
-
-## Utils
-
----
-
-## Tests
+![Tests](https://user-images.githubusercontent.com/66262425/87335561-ce6c3c00-c540-11ea-9769-7dc5f6993ca5.JPG)
 
 ---
