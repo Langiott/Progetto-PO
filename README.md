@@ -54,8 +54,7 @@ i post per:
 
 ## Struttura package e classi
 
-![Struttura package e classi](https://user-images.githubusercontent.com/66262425/87336182-bcd76400-c541-11ea-9589-eb0d19373cb2.JPG)
-
+![Struttura package e classi](https://user-images.githubusercontent.com/66262425/87336222-c95bbc80-c541-11ea-8193-1d9f94eaa99c.JPG)
 ---
 
 ### Application 
