@@ -3,12 +3,12 @@
 Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottenere dei post di Facebook dell' utente con lo scopo di analizzarli.Ci poniamo di studiare 
 i post per:
 
-*sapere se ci sono hastag nel post.
+* sapere se ci sono hastag nel post.
 
-*sapere se ci sono emoticons.
+* sapere se ci sono emoticons.
 
-*effettuare analisi statistiche sulla lunghezza dei testi.
----
+* effettuare analisi statistiche sulla lunghezza dei testi.
+
 
 # Software utilizzati
 
@@ -20,11 +20,29 @@ i post per:
 
 [PostMan](https://www.postman.com/) - strumento per testare il service. 
 
----
+
 
 # Autori
 
 [Andrea Langiotti](https://github.com/Langiott).
 
 [Di Mauro Giuseppe](https://github.com/Giuseppe-Di-Mauro).
+
+
+# UML 
+
+* Application
+* Controller 
+* Exception
+* Model
+* Repository 
+* Service 
+* Utils 
+
+# [Application](Application)
+
+
+
+
+
 
