@@ -21,7 +21,13 @@ i post per:
 
 [Maven](https://maven.apache.org/) - strumento di gestione progetti.
 
-[PostMan](https://www.postman.com/) - strumento per testare il service. 
+[PostMan](https://www.postman.com/) - strumento per testare il service.
+
+[GitHub](https://github.com/) - strumento per il deposito del progetto 
+
+[GitHub Desktop](https://desktop.github.com/) - strumento per la scritture del Readme
+
+[StarUml](http://staruml.io/)- strumento per la creazione di diagrammi 
 
 
 
