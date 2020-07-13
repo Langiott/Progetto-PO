@@ -3,6 +3,8 @@
 ![github-large](https://alumniunivpm.it/assets/img/logo/logo-UNIVPM.png)
 
 
+
+
 Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottenere dei post di Facebook dell' utente con lo scopo di analizzarli.Ci poniamo di studiare 
 i post per:
 
@@ -29,13 +31,12 @@ i post per:
 
 [StarUml](http://staruml.io/)- strumento per la creazione di diagrammi 
 
+> Questi Software hanno fatto si da rializzare un progetto dalla fase iniziale alla finale 
 
+# Diagrammi Casi d'Uso
 
-# Autori
+![Diagrammi Casi d'Uso](https://user-images.githubusercontent.com/66262425/87339217-949e3400-c546-11ea-9cf1-4458a86e3ce4.JPG)
 
-[Andrea Langiotti](https://github.com/Langiott).
-
-[Di Mauro Giuseppe](https://github.com/Giuseppe-Di-Mauro).
 
 
 # UML 
@@ -101,3 +102,9 @@ i post per:
 ![Tests](https://user-images.githubusercontent.com/66262425/87335561-ce6c3c00-c540-11ea-9769-7dc5f6993ca5.JPG)
 
 ---
+
+# Autori
+
+[Andrea Langiotti](https://github.com/Langiott).
+
+[Di Mauro Giuseppe](https://github.com/Giuseppe-Di-Mauro).
