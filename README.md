@@ -107,13 +107,13 @@ Ora definiamo altre classi : MetaData e Stats. Infine definiamo una interfaccia 
 ![Repository](https://user-images.githubusercontent.com/66262425/87336195-c06aeb00-c541-11ea-9b6d-5e7b00c80f97.JPG)
 
 Classe che mi va a definire due metodo che mi permettono di salvare il feed 
+
 ---
 ### Service
 
 ![Service](https://user-images.githubusercontent.com/66262425/87336201-c4970880-c541-11ea-8b21-6b110ac3b292.JPG)
 
 Classe che mi fa restituisce molti tipi di dato attraverso diversi metodi.
-
 
 
 ---
@@ -125,7 +125,7 @@ Classe che mi fa restituisce molti tipi di dato attraverso diversi metodi.
 
 ### Tests
 
-![Tests](https://user-images.githubusercontent.com/66262425/87335561-ce6c3c00-c540-11ea-9769-7dc5f6993ca5.JPG)
+![Tests]()
 
 ---
 
