@@ -1,4 +1,3 @@
-
 # Progetto Di Mauro Giuseppe & Langiotti Andrea 
 
 ![github-large](https://alumniunivpm.it/assets/img/logo/logo-UNIVPM.png)
