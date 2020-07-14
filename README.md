@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Progetto OOP
 
 Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottenere dei post di Facebook dell' utente con lo scopo di analizzarli.Ci poniamo di studiare 
@@ -17,4 +18,7 @@ i post per:
 # Autori:
 Andrea Langiotti
 Di Mauro Giuseppe
+=======
+
+>>>>>>> 7e8e1ec7c9515b9beab4b08dc352a7dddb6fa0b8
 
