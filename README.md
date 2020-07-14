@@ -2,15 +2,15 @@
 
 ![github-large](https://alumniunivpm.it/assets/img/logo/logo-UNIVPM.png)
 
-
-Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottenere dei post di Facebook dell' utente con lo scopo di analizzarli.Ci poniamo di studiare 
-i post per:
+Il progetto sfrutta le conoscenze della programmazione orientata ad oggetti per creare classi che ci permettono di gestire il data-set mediante un API REST-GET.
+Per creare l'API rest è stato utilizzato Spring Boot un framework di Spring per la creazione di microservizi.
+Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottenere dei post di Facebook dell' utente con lo scopo di analizzarli.Studiamo i post per:
 
 -sapere se ci sono hastag nel post;
 
 -sapere se ci sono emoticons;
 
--effettuare analisi statistiche sulla lunghezzz dei testi.
+-effettuare analisi statistiche sulla lunghezza dei testi.
 
 # Software utilizzati
 
