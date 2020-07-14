@@ -101,11 +101,6 @@ In conclusione definiamo Media con la classe Media.Questa classe contiene 3 attr
 
 Ora definiamo altre classi : MetaData e Stats. Infine definiamo una interfaccia Filter<E,T>.
 
-![model1](https://user-images.githubusercontent.com/66262425/87453466-d096cf00-c602-11ea-9a0a-7e4dd66cd9d5.JPG)
-![PARTENZA](https://user-images.githubusercontent.com/66262425/87453481-d4c2ec80-c602-11ea-88d3-46da403710cc.JPG)
-![UTILS](https://user-images.githubusercontent.com/66262425/87453488-d7254680-c602-11ea-8275-4f8cb879d228.JPG)
-
----
 
 ### Repository
 
