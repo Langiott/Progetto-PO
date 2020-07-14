@@ -38,10 +38,10 @@ Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottener
 
   TIPO  |  ROTTA     |  DESCRIZIONE  |
 --------|------------|---------------|
-GET     |/MetaData   |               |
-GET     |/Data       |               |
+GET     |/MetaData   |restituisce tutti i metadata|
+GET     |/Data       |restituisce i dati|
 GET     |/FilterData |               |
-GET     |/Stats      |               |
+GET     |/Stats      |restituisce i stats            |
 GET     |/FilterStats|               |
 
 
