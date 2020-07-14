@@ -74,7 +74,7 @@ Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottener
 
 ### Model
 
-![Model](https://user-images.githubusercontent.com/66262425/87336182-bcd76400-c541-11ea-9589-eb0d19373cb2.JPG)
+![Model](https://user-images.githubusercontent.com/66262425/87453466-d096cf00-c602-11ea-9a0a-7e4dd66cd9d5.JPG)
 
 IL Package Model contiene diverse classi :
 
@@ -87,6 +87,8 @@ IL Package Model contiene diverse classi :
 * Post
 * Stats
 
+![PARTENZA](https://user-images.githubusercontent.com/66262425/87453481-d4c2ec80-c602-11ea-88d3-46da403710cc.JPG)
+
 Inizialmente abbiamo creato la classe Feed contenete un attributo di tipo List<Post> (definito ogni attributo generiamo un getter e un setter). 
 Defininimo Post nella classe Post che contiene due attributiuno del quali è un List<Commet>. 
 A sua volta Commet è definito da una classe Commit avente 3 attributi tra cui uno di tipo Attachment. A fior di logica definiamo Attachment con la classe Attachment avente 3 
@@ -98,6 +100,11 @@ In conclusione definiamo Media con la classe Media.Questa classe contiene 3 attr
 * hashcode() : definito il metodo equals definiamo anche questo metodo per non incorrere ad eventuali errori
 
 Ora definiamo altre classi : MetaData e Stats. Infine definiamo una interfaccia Filter<E,T>.
+
+![model1](https://user-images.githubusercontent.com/66262425/87453466-d096cf00-c602-11ea-9a0a-7e4dd66cd9d5.JPG)
+![PARTENZA](https://user-images.githubusercontent.com/66262425/87453481-d4c2ec80-c602-11ea-88d3-46da403710cc.JPG)
+![UTILS](https://user-images.githubusercontent.com/66262425/87453488-d7254680-c602-11ea-8275-4f8cb879d228.JPG)
+
 ---
 
 ### Repository
@@ -118,8 +125,7 @@ Classe che mi fa restituisce molti tipi di dato attraverso diversi metodi.
 
 ### Utils
 
-![Utils](https://user-images.githubusercontent.com/66262425/87335561-ce6c3c00-c540-11ea-9769-7dc5f6993ca5.JPG)
-
+![Utils](https://user-images.githubusercontent.com/66262425/87453488-d7254680-c602-11ea-8275-4f8cb879d228.JPG)
 ---
 
 ### Tests
