@@ -22,13 +22,14 @@ public class Media {
 	public void setWidth(int width) {
 		this.width = width;
 	}
+	
+	/*Andrea*/
 	@Override
 	public int hashCode() {
-		final int prime = 31;
 		int result = 1;
-		result = prime * result + height;
-		result = prime * result + ((src == null) ? 0 : src.hashCode());
-		result = prime * result + width;
+		result = 31* result + height;
+		result = 31 * result + width;
+		result = 31 * result + ((src == null) ? 0 : src.hashCode());
 		return result;
 	}
 	@Override
