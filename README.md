@@ -176,20 +176,14 @@ Qui salviamo la lista di soli commenti che abbiamo inizializzato nella classe Ut
 
 Il package Utils contiene diverse classi :
 
-* FeedParser: in questa classe vado ad inizializzare gli attributi della classe Stats. Attraverso dei cicliannidati 
-             vado a trovare se è possibile ad ogni comment ci sono degli hashtag, delle emoticon e aggiorno la 
-             dimensione dell'attributo mediaComments.Si nota della lettura del codice si nota che usiamo 
-             una funzione specifica EmojiManager.containsEmoji(message) che mi permette di sapere se cio che ù
-             stiamo analizzando sia un emoticon oppure no. Per unasre questa specifiche funzioni abbiamo 
+* FeedParser: in questa classe vado ad inizializzare gli attributi della classe Stats. Attraverso dei cicli annidati 
+             vado a trovare ad ogni commento se ci sono degli hashtag, delle emoticon e aggiorno la 
+             dimensione dell'attributo mediaComments. Si nota dalla lettura del codice che usiamo 
+             una funzione specifica EmojiManager.containsEmoji(message) che mi permette di sapere se,
+             ciò che stiamo analizzando, sia un emoticon oppure no. Per unasre questa specifiche funzione abbiamo 
              dovuto aggiormare il pom.xml con una specifica dipendenza.
 
 * RepoFilter :in questa classe andiamo a creare una Lista di commenti con ArrayList<Comment>
----
-
-### Tests
-
-![Tests]()
-
 ---
 
 ### Exception
@@ -206,6 +200,8 @@ non trova nessun emoticon.
 * FilterException 
 
 ---
+
+### Tests
 
 # Autori
 
