@@ -34,15 +34,17 @@ Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottener
 ![Diagrammi Casi d'Uso](https://user-images.githubusercontent.com/66262425/87339217-949e3400-c546-11ea-9cf1-4458a86e3ce4.JPG)
 
 
+# Struttura
+
+![pacchetto]()
+
 # Eventuali Richieste
 
   TIPO  |  ROTTA     |  DESCRIZIONE  |
 --------|------------|---------------|
-GET     |/MetaData   |restituisce tutti i metadata|
-GET     |/Data       |restituisce i dati|
-GET     |/FilterData |               |
-GET     |/Stats      |restituisce i stats            |
-GET     |/FilterStats|               |
+GET     |/feed  |return all the feed|
+GET     |/feed/comments|return all the comments|
+GET     |/Stats      |return al the stats|
 
 
 
@@ -64,18 +66,17 @@ GET     |/FilterStats|               |
 
 ## Struttura package e classi
 
-![Struttura package e classi](https://user-images.githubusercontent.com/66262425/87336222-c95bbc80-c541-11ea-8193-1d9f94eaa99c.JPG)
----
+![Struttura package e classi]()
 
 ### Application 
 
-![Application](https://user-images.githubusercontent.com/66262425/87336024-8994d500-c541-11ea-9f45-ed7c7eb03ca4.JPG)
+![Application]()
 
 ---
 
 ### Controller
 
-![Controller](https://user-images.githubusercontent.com/66262425/87336171-b8ab4680-c541-11ea-99fd-2841b287127d.JPG)
+![Controller]()
 ---
 
 ### Exception
@@ -85,8 +86,7 @@ GET     |/FilterStats|               |
 
 ### Model
 
-![Model](https://user-images.githubusercontent.com/66262425/87453466-d096cf00-c602-11ea-9a0a-7e4dd66cd9d5.JPG)
-
+![Model]()
 IL Package Model contiene diverse classi :
 
 * Attachment
@@ -98,41 +98,26 @@ IL Package Model contiene diverse classi :
 * Post
 * Stats
 
-![PARTENZA](https://user-images.githubusercontent.com/66262425/87453481-d4c2ec80-c602-11ea-88d3-46da403710cc.JPG)
+![ragionamento]()
 
-Inizialmente abbiamo creato la classe Feed contenete un attributo di tipo List<Post> (definito ogni attributo generiamo un getter e un setter). 
-Defininimo Post nella classe Post che contiene due attributiuno del quali è un List<Commet>. 
-A sua volta Commet è definito da una classe Commit avente 3 attributi tra cui uno di tipo Attachment. A fior di logica definiamo Attachment con la classe Attachment avente 3 
-attributi, uno di questi è di tipo Media. 
-In conclusione definiamo Media con la classe Media.Questa classe contiene 3 attributi, questa volta oltre a generare dei setter , dei getter e toString() creaiamo altri metodi:
-
-* equals() :metodo che ci restituisce true o false a seconda dalle condizioni ben definite 
-
-* hashcode() : definito il metodo equals definiamo anche questo metodo per non incorrere ad eventuali errori
-
-Ora definiamo altre classi : MetaData e Stats. Infine definiamo una interfaccia Filter<E,T>.
-
+Inizialmente abbiamo creato la classe......
 
 ### Repository
 
-![Repository](https://user-images.githubusercontent.com/66262425/87336195-c06aeb00-c541-11ea-9b6d-5e7b00c80f97.JPG)
-
-Classe che mi va a definire due metodo che mi permettono di salvare il feed 
+![Repository]()
+ 
 
 ---
 ### Service
 
-![Service](https://user-images.githubusercontent.com/66262425/87336201-c4970880-c541-11ea-8b21-6b110ac3b292.JPG)
-
-Classe che mi fa restituisce molti tipi di dato attraverso diversi metodi.
+![Service]()
 
 
 ---
 
 ### Utils
 
-![Utils](https://user-images.githubusercontent.com/66262425/87453488-d7254680-c602-11ea-8275-4f8cb879d228.JPG)
----
+![Utils]()
 
 ### Tests
 
