@@ -180,7 +180,7 @@ Il package Utils contiene diverse classi :
              vado a trovare ad ogni commento se ci sono degli hashtag, delle emoticon e aggiorno la 
              dimensione dell'attributo mediaComments. Si nota dalla lettura del codice che usiamo 
              una funzione specifica EmojiManager.containsEmoji(message) che mi permette di sapere se,
-             ciò che stiamo analizzando, sia un emoticon oppure no. Per unasre questa specifiche funzione abbiamo 
+             ciò che stiamo analizzando, sia un emoticon oppure no. Per usare questa specifiche funzione abbiamo 
              dovuto aggiormare il pom.xml con una specifica dipendenza.
 
 * RepoFilter :in questa classe andiamo a creare una Lista di commenti con ArrayList<Comment>
