@@ -31,7 +31,7 @@ Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottener
 
 # Diagrammi Casi d'Uso
 
-![Diagrammi Casi d'Uso]()
+![Diagrammi Casi d'Uso](https://user-images.githubusercontent.com/66262425/87712585-2d33ee80-c7a9-11ea-987a-eadee44d0cf0.JPG)
 
 
 # Struttura 
@@ -64,7 +64,7 @@ GET     |/Stats      |return al the stats|
 
 ---
 
-## Struttura package e classi
+### Struttura package e classi
 
 ![Struttura package e classi](https://user-images.githubusercontent.com/66262425/87711527-aaf6fa80-c7a7-11ea-98bb-b2b249437ce4.JPG)
 
@@ -87,14 +87,15 @@ GET     |/Stats      |return al the stats|
 ### Model
 
 ![Model](https://user-images.githubusercontent.com/66262425/87711511-a894a080-c7a7-11ea-925c-6b33f5e4cca7.JPG)
-IL Package Model contiene diverse classi :
+
+IL package Model contiene diverse classi :
 
 * Attachment
-* Commet
+* Comment
 * Feed
-* Filter
+* CommentList
 * Media 
-* MetaData
+* Image
 * Post
 * Stats
 
@@ -105,7 +106,11 @@ Inizialmente abbiamo creato la classe......
 ### Repository
 
 ![Repository](https://user-images.githubusercontent.com/66262425/87711522-aa5e6400-c7a7-11ea-9924-9432e05b0074.JPG)
- 
+
+IL package Repository contiene diverse classi :
+
+* FeedParser
+* RepoFilter
 
 ---
 ### Service
