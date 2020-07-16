@@ -39,7 +39,7 @@ package it.univpm.oop.project.controller;
 		 * GET /Data(Filter)
 		 * @return the data with a filter
 		 */
-		@PostMapping("/FilterData")
+		@GetMapping("/FilterData")
 		public ResponseEntity<Object> getData(@RequestBody String filter) throws FormatException, MismatchTypeFilterException, FieldException, OperatorException{
 			return new ResponseEntity<>(service.getData(filter),HttpStatus.OK);
 				
