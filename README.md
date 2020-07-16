@@ -12,6 +12,20 @@ Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottener
 
 -effettuare analisi statistiche sulla lunghezza dei testi.
 
+Per la creazione del progetto abbiamo usato [Spring Initializr](https://start.spring.io/) che ci permette di scelgliere alcune specifiche di progetto, 
+nel nostro caso abbiamo utilizzato:
+
+* un progetto maven
+
+* linguaggio di programmazione java 8
+
+* versione Spring Boot 2.3.0
+
+* packaging jar  
+
+* e alcune dipendenze, che vengono elencare nel pom.xml
+
+
 # Software utilizzati
 
 [Eclipse](https://www.eclipse.org/downloads/packages/release/mars/r/eclipse-ide-java-ee-developers) - ambiente di sviluppo integrato.
@@ -84,6 +98,7 @@ https://graph.facebook.com/v7.0/me/feed?access_token=EAAIi8ZAbkTG4BAMyU5TNZBPa4Z
 
 I token di accesso dell' Utente generalmente sono di breve durata,tuttavia, abbiamo preferito avere un token di lunga nel nostro 
 progetto.
+
 
 ### Controller
 
@@ -182,7 +197,7 @@ Dato che il nostro progetto gestisce l'analisi dei Post è utile creare delle ec
 * HashtagNotFoundException: eccezione che mi stampa in output un messaggio se nel FeedParsing 
 non trova nessun hashtag 
 
-*EmoticonNotFoundException: eccezione che mi stampa in output un messaggio se nel FeedParsing 
+* EmoticonNotFoundException: eccezione che mi stampa in output un messaggio se nel FeedParsing 
 non trova nessun emoticon.
 
 
