@@ -201,7 +201,7 @@ non trova nessun hashtag
 non trova nessun emoticon.
 
 
-*
+* FilterException 
 
 ---
 
