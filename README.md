@@ -31,7 +31,7 @@ Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottener
 
 # Diagrammi Casi d'Uso
 
-![Diagrammi Casi d'Uso](https://user-images.githubusercontent.com/66262425/87339217-949e3400-c546-11ea-9cf1-4458a86e3ce4.JPG)
+![Diagrammi Casi d'Uso]()
 
 
 # Struttura
