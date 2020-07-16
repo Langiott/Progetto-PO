@@ -147,7 +147,9 @@ specifici attributi:
 
 * maxCommentsLength: numero che mi esprime la lunghezza massima di tutti i commenti
 
-* emoticonComments: numeroo che mi esprime quante emoticon ci sono nei commenti 
+* emoticonComments: numeroo che mi esprime quante emoticon ci sono nei commenti
+
+Infine abbiamo creato la classe Filter... 
 	
 
 ---
