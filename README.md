@@ -1,4 +1,4 @@
-# Progetto Di Mauro Giuseppe & Langiotti Andrea  
+# Progetto di Langiotti Andrea & Di Mauro Giuseppe   
 
 ![github-large](https://alumniunivpm.it/assets/img/logo/logo-UNIVPM.png)
 
