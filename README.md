@@ -65,7 +65,7 @@ GET     |/feed/comments/{filter} |return the comments filtered|
 GET     |/stats      |return all the stats|
 
 
-
+# Filtri Validi 
 
 FILTRO  |DESCRIZIONE |
 --------|------------|
