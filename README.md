@@ -58,6 +58,7 @@ nel nostro caso abbiamo utilizzato:
 --------|------------|---------------|
 GET     |/feed  |return all the feed|
 GET     |/feed/comments|return all the comments|
+GET     |/feed/comments/{filter} |return the response entity|
 GET     |/Stats      |return al the stats|
 
 
@@ -102,8 +103,7 @@ progetto.
 
 ### Controller
 
-![Controller](https://user-images.githubusercontent.com/66262425/87711508-a894a080-c7a7-11ea-9773-64d8f6203a81.JPG)
-
+![Controller](https://user-images.githubusercontent.com/66262425/87778923-3ade8800-c82c-11ea-92b0-8df302347d99.JPG)
 ---
 
 ### Model
@@ -149,7 +149,10 @@ specifici attributi:
 
 * emoticonComments: numeroo che mi esprime quante emoticon ci sono nei commenti
 
-Infine abbiamo creato la classe Filter... 
+Infine abbiamo creato la classe Filter:
+
+![filter](https://user-images.githubusercontent.com/66262425/87779724-8e9da100-c82d-11ea-880b-989b0c9a4bc0.JPG)
+
 	
 
 ---
