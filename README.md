@@ -65,6 +65,8 @@ GET     |/feed/comments/{filter} |return the comments filtered|
 GET     |/stats      |return all the stats|
 
 
+
+
 FILTRO  |DESCRIZIONE |
 --------|------------|
 hashtag |return all the comments that contain at least an hashtag|
@@ -84,7 +86,7 @@ media|return all the comments that contain at least a media file|
 - [Utils](#utils)
 - [Tests](#tests)
 
->Le immagini sono state realizzate con StarUml e sono state modificate e salvate con modello jpeg 
+>Le immagini sono state realizzate con StarUml e sono state modificate e salvate con formato jpeg 
 
 ---
 
@@ -97,14 +99,14 @@ media|return all the comments that contain at least a media file|
 ![Application](https://user-images.githubusercontent.com/66262425/87711507-a7637380-c7a7-11ea-922c-d84b1ccf6aa9.JPG)
 
 Il modello Application mi gestisce le classi con un framework Spring Boot. 
-Per la generazione dell’Access Token abbiamo visitato il sito https://developers.facebook.com effettuato l’accesso Facebook, creiamo un’app
+Per la generazione dell’Access Token abbiamo visitato il sito https://developers.facebook.com, effettuato l’accesso Facebook, creiamo un’app
 definita da un nome e dall’ID App.Dalla pagina di gestione dell’app appena creata andiamo su Strumenti/Tool di Esplorazione e 
 selezioniamo l’app creata e nelle opzioni Utente scegliamo il Token Utente e a seconda delle esigenze di progetto aggiungiamo 
 tutte le autorizzazioni di accesso; un esempio sono le autorizzazioni per prendere tutti i dati dei Post.
 Dopo aver cliccato Generate Access Token, autorizziamo l’accesso seguendo le indicazioni per Utente.
 Copiamo l’Access Token per l’utilizzo nelle chiamate API. Nel nostro caso sarà:
 
-https://graph.facebook.com/v7.0/me/feed?access_token=EAAIi8ZAbkTG4BAMyU5TNZBPa4ZAcaaU9O7XjWpVMYFLN8uwPCIYhXY5wgBSShMHEACZAMlcIPwzfxywa1nEBY7arBSiZAGCytCxnP5ZB9feoOVLR6YFKivGHVLUlYKpq7If1XsZCN3gA9ZC12ZCi9SgwEZB9owNuAuzp7Ur2KZCwcFOFEIy9GR9VAcZA&__activeScenarioIDs=%5B%5D&__activeScenarios=%5B%5D&debug=all&format=json&method=get&pretty=0&suppress_http_code=1&transport=cors&limit=1000&fields=comments{fields}";
+https://graph.facebook.com/v7.0/me/feed?access_token=EAAIi8ZAbkTG4BAMyU5TNZBPa4ZAcaaU9O7XjWpVMYFLN8uwPCIYhXY5wgBSShMHEACZAMlcIPwzfxywa1nEBY7arBSiZAGCytCxnP5ZB9feoOVLR6YFKivGHVLUlYKpq7If1XsZCN3gA9ZC12ZCi9SgwEZB9owNuAuzp7Ur2KZCwcFOFEIy9GR9VAcZA&__activeScenarioIDs=%5B%5D&__activeScenarios=%5B%5D&debug=all&format=json&method=get&pretty=0&suppress_http_code=1&transport=cors&limit=1000&fields=comments{id,message,attachment}";
 
 I token di accesso dell' Utente generalmente sono di breve durata,tuttavia, abbiamo preferito avere un token di lunga nel nostro 
 progetto.
