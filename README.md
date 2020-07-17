@@ -164,7 +164,8 @@ Qui salviamo la lista di soli commenti che abbiamo inizializzato nella classe Ut
 ---
 ### Service
 
-![Service](https://user-images.githubusercontent.com/66262425/87711525-aaf6fa80-c7a7-11ea-9725-ee3791dbf93e.JPG)
+![Service](https://user-images.githubusercontent.com/66262425/87778184-19c96780-c82b-11ea-908a-fd9e19a55891.JPG)
+
 
 
 
@@ -184,20 +185,34 @@ Il package Utils contiene diverse classi :
              dovuto aggiormare il pom.xml con una specifica dipendenza.
 
 * RepoFilter :in questa classe andiamo a creare una Lista di commenti con ArrayList<Comment>
+
+Nel package Utils c'è un'altro package chiamato Filters. Come si intuisce, qui troveremo dei filtri:
+
+* FilterEmoticon
+
+* FilterHashtag
+
+* FilterMedia 
+
+![filters extends](https://user-images.githubusercontent.com/66262425/87778176-1635e080-c82b-11ea-8606-5b4d5d1a49bc.JPG)
 ---
 
 ### Exception
 
 Dato che il nostro progetto gestisce l'analisi dei Post è utile creare delle eccezioni:
 
-* HashtagNotFoundException: eccezione che mi stampa in output un messaggio se nel FeedParsing 
+* HashtagNotFoundEx: eccezione che mi stampa in output un messaggio se nel FeedParsing 
 non trova nessun hashtag 
 
-* EmoticonNotFoundException: eccezione che mi stampa in output un messaggio se nel FeedParsing 
+* EmoticonNotFoundEx: eccezione che mi stampa in output un messaggio se nel FeedParsing 
 non trova nessun emoticon.
 
 
 * FilterException 
+
+* MediaNotFoundEx 
+
+> Tutte le eccezioni create sono una estenzione di Exception
 
 ---
 
