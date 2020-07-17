@@ -135,33 +135,34 @@ IL package Model contiene diverse classi :
 
 ![ragionamento](https://user-images.githubusercontent.com/66262425/87711517-a9c5cd80-c7a7-11ea-9344-8f1f8bc57a95.JPG)
 
-Inizialmente abbiamo creato la classe Feed che come andreamo a vedere incapsula vari tipi di dato. Nella classe Feed
-troveremo un attributo List<Post> . Post è definita nella classe Post, qui troveremo 2 attributi, uno di questi è di tipo 
+Inizialmente abbiamo creato la classe Feed che come andremo a vedere incapsula vari tipi di dato. Nella classe Feed
+troveremo un attributo List di Post . Post è definita nella classe Post, qui troveremo 2 attributi, uno di questi è di tipo 
 CommentList. Seguendo il ragionamento definisco CommentList in una classe con lo stesso nome.Nella classe CommentList
-troveremo un attributo di tipo Attachment definito a sua volta da una una classe chiamata Attachment, in questa classe 
+troveremo un attributo di tipo List di Comment definito a sua volta da una una classe chiamata Comment. Nella classe 
+Comment troveremo un attributo di tipo Attachment definito da una classe Attachment. In questa classe 
 troviamo invece un attributo di tipo Media. Creo quindi la classe Media che mi genere un attributo di tipo Image.
-In conclusione creo una classe Images.
+In conclusione creo una classe Image.
 
-Questo tipo di incapsulamento ha rispettato la tipologia di dato facebook.
+Questo tipo di incapsulamento ha rispettato il formato JSON della chiamata Get /me/feed di facebook.
 Come si puo notare nell'immagine sopra dopo aver definito gli attributi si generano dei getter e dei setter 
-che mi saranno utili in un'altra parte del progetto.
+che mi saranno utili per il parsing del JSON.
 
-Dopo aver creato delle classi che mi gestiscono l' incapsulamento dei dati Facebook, creo una classe Stats che avrà 
+Dopo aver creato delle classi che mi gestiscono il parsing del JSON, creo una classe Stats che avrà 
 specifici attributi:
 
-* mediaComments: numero di commenti di tipo multimedia 
+* mediaComments: numero di commenti in cui è allegato un file multimediale
 
-* hashtagComments: numero di hashtag nei commenti
+* hashtagComments: numero di commenti che contengono almeno un hashtag
 
-* sumCommentsLength: numero che mi esprime la lunghezza di tutti i commenti  
+* sumCommentsLength: somma totale della lunghezza di tutti i commenti  
 
-* averageCommentsLength: numero che mi esprime una media della lunghezza dei commenti 
+* averageCommentsLength: lunghezza media dei commenti 
 
-* minCommentsLength: numero che mi esprime la lunghezza minima di tutti i commenti  
+* minCommentsLength: lunghezza minima tra tutti i commenti  
 
-* maxCommentsLength: numero che mi esprime la lunghezza massima di tutti i commenti
+* maxCommentsLength: lunghezza massima tra tutti i commenti  
 
-* emoticonComments: numeroo che mi esprime quante emoticon ci sono nei commenti
+* emoticonComments: numero di commenti che contengono almeno un emoticon
 
 Infine abbiamo creato la classe Filter (contenuto sempre nel package Model):
 
@@ -175,7 +176,7 @@ Infine abbiamo creato la classe Filter (contenuto sempre nel package Model):
 
 ![Repository](https://user-images.githubusercontent.com/66262425/87711522-aa5e6400-c7a7-11ea-9924-9432e05b0074.JPG)
 
-Qui salviamo la lista di soli commenti che abbiamo inizializzato nella classe Utils
+Qui salviamo la lista di soli commenti.
 
 
 ---
@@ -194,14 +195,14 @@ Qui salviamo la lista di soli commenti che abbiamo inizializzato nella classe Ut
 
 Il package Utils contiene diverse classi :
 
-* FeedParser: in questa classe vado ad inizializzare gli attributi della classe Stats. Attraverso dei cicli annidati 
-             vado a trovare ad ogni commento se ci sono degli hashtag, delle emoticon e aggiorno la 
-             dimensione dell'attributo mediaComments. Si nota dalla lettura del codice che usiamo 
-             una funzione specifica EmojiManager.containsEmoji(message) che mi permette di sapere se,
-             ciò che stiamo analizzando, sia un emoticon oppure no. Per usare questa specifiche funzione abbiamo 
-             dovuto aggiormare il pom.xml con una specifica dipendenza.
+* FeedParser: in questa classe vado ad inizializzare gli attributi della classe Stats dato un Feed. Attraverso dei cicli annidati 
+             vado a verificare per ogni commento se ci sono degli hashtag, delle emoticon o se sono allegati dei file multimediali. 
+	     Si nota dalla lettura del codice che usiamo 
+             un metodo specifico containsEmoji(String message) che mi permette di sapere se
+             la stringa che stiamo analizzando contenga un emoticon oppure no. Per usare questa funzione abbiamo 
+             dovuto aggiornare il pom.xml con una specifica dipendenza, EmojiManager.
 
-* RepoFilter :in questa classe andiamo a creare una Lista di commenti con ArrayList<Comment>
+* RepoFiller :in questa classe andiamo a creare una Lista di tutti i commenti 
 
 Nel package Utils c'è un'altro package chiamato Filters. Come si intuisce, qui troveremo dei filtri:
 
@@ -216,12 +217,11 @@ Nel package Utils c'è un'altro package chiamato Filters. Come si intuisce, qui 
 
 ### Exception
 
-Dato che il nostro progetto gestisce l'analisi dei Post è utile creare delle eccezioni:
 
-* HashtagNotFoundEx: eccezione che mi stampa in output un messaggio se nel FeedParsing 
+* HashtagNotFoundEx: eccezione che mi stampa in output un messaggio se nel FeedParser
 non trova nessun hashtag 
 
-* EmoticonNotFoundEx: eccezione che mi stampa in output un messaggio se nel FeedParsing 
+* EmoticonNotFoundEx: eccezione che mi stampa in output un messaggio se nel FeedParser 
 non trova nessun emoticon.
 
 
