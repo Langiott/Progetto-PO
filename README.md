@@ -152,7 +152,7 @@ specifici attributi:
 
 * emoticonComments: numeroo che mi esprime quante emoticon ci sono nei commenti
 
-Infine abbiamo creato la classe Filter:
+Infine abbiamo creato la classe Filter (contenuto sempre nel package Model):
 
 ![filter](https://user-images.githubusercontent.com/66262425/87779724-8e9da100-c82d-11ea-880b-989b0c9a4bc0.JPG)
 
