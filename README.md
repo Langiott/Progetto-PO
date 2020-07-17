@@ -50,7 +50,12 @@ nel nostro caso abbiamo utilizzato:
 
 # Diagrammi Casi d'Uso
 
-![Diagrammi Casi d'Uso](https://user-images.githubusercontent.com/66262425/87712585-2d33ee80-c7a9-11ea-987a-eadee44d0cf0.JPG)
+![Diagrammi Casi d'Uso](https://user-images.githubusercontent.com/66262425/87813297-ea821d00-c861-11ea-9252-ff78f247339f.JPG)
+
+
+# Diagrammi Sequenziali
+
+![Diagrammi sequenziali](https://user-images.githubusercontent.com/66262425/87813303-ece47700-c861-11ea-88bc-06a74112a526.JPG)
 
 
 # Struttura 
