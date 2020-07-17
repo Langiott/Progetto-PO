@@ -3,14 +3,17 @@
 ![github-large](https://alumniunivpm.it/assets/img/logo/logo-UNIVPM.png)
 
 Il progetto sfrutta le conoscenze della programmazione orientata ad oggetti per creare classi che ci permettono di gestire il data-set mediante un API REST-GET.
-Per creare l'API rest è stato utilizzato Spring Boot un framework di Spring per la creazione di microservizi.
-Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottenere dei post di Facebook dell' utente con lo scopo di analizzarli.Studiamo i post per:
+Per creare l'API rest è stato utilizzato Spring Boot, un framework di Spring per la creazione di microservizi.
+Tramite l'utilizzo del Rest Api (Get) ,con una repository, ci poniamo di ottenere dei post di Facebook dell' utente con lo scopo di analizzarli.
+Studiamo i commenti dei post per:
 
--sapere se ci sono hastag nel post;
+* sapere se ci sono hashtag;
 
--sapere se ci sono emoticons;
+* sapere se ci sono emoticon;
 
--effettuare analisi statistiche sulla lunghezza dei testi.
+* effettuare analisi statistiche sulla lunghezza dei messaggi;
+
+* sapere se ci sono allegati file multimediali.
 
 Per la creazione del progetto abbiamo usato [Spring Initializr](https://start.spring.io/) che ci permette di scelgliere alcune specifiche di progetto, 
 nel nostro caso abbiamo utilizzato:
@@ -23,7 +26,7 @@ nel nostro caso abbiamo utilizzato:
 
 * packaging jar  
 
-* e alcune dipendenze, che vengono elencare nel pom.xml
+* alcune dipendenze, che vengono elencare nel pom.xml
 
 
 # Software utilizzati
@@ -58,9 +61,15 @@ nel nostro caso abbiamo utilizzato:
 --------|------------|---------------|
 GET     |/feed  |return all the feed|
 GET     |/feed/comments|return all the comments|
-GET     |/feed/comments/{filter} |return the response entity|
-GET     |/Stats      |return al the stats|
+GET     |/feed/comments/{filter} |return the comments filtered|
+GET     |/stats      |return all the stats|
 
+
+FILTRO  |DESCRIZIONE |
+--------|------------|
+hashtag |return all the comments that contain at least an hashtag|
+emoticon|return all the comments that contain at least an emoticon|
+media|return all the comments that contain at least a media file|
 
 
 # UML 
