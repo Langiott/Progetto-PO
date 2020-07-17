@@ -120,6 +120,7 @@ IL package Model contiene diverse classi :
 * Image
 * Post
 * Stats
+* Filter
 
 ![ragionamento](https://user-images.githubusercontent.com/66262425/87711517-a9c5cd80-c7a7-11ea-9344-8f1f8bc57a95.JPG)
 
@@ -129,9 +130,11 @@ CommentList. Seguendo il ragionamento definisco CommentList in una classe con lo
 troveremo un attributo di tipo Attachment definito a sua volta da una una classe chiamata Attachment, in questa classe 
 troviamo invece un attributo di tipo Media. Creo quindi la classe Media che mi genere un attributo di tipo Image.
 In conclusione creo una classe Images.
+
 Questo tipo di incapsulamento ha rispettato la tipologia di dato facebook.
 Come si puo notare nell'immagine sopra dopo aver definito gli attributi si generano dei getter e dei setter 
 che mi saranno utili in un'altra parte del progetto.
+
 Dopo aver creato delle classi che mi gestiscono l' incapsulamento dei dati Facebook, creo una classe Stats che avrà 
 specifici attributi:
 
